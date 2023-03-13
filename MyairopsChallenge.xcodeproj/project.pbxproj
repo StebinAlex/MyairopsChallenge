@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4CB355029BF6C63006D39F2 /* MyairopsChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB354F29BF6C63006D39F2 /* MyairopsChallengeApp.swift */; };
+		C4CB355229BF6C63006D39F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB355129BF6C63006D39F2 /* ContentView.swift */; };
+		C4CB355429BF6C65006D39F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CB355329BF6C65006D39F2 /* Assets.xcassets */; };
+		C4CB355729BF6C65006D39F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CB355629BF6C65006D39F2 /* Preview Assets.xcassets */; };
+		C4CB356129BF6C65006D39F2 /* MyairopsChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB356029BF6C65006D39F2 /* MyairopsChallengeTests.swift */; };
+		C4CB356B29BF6C65006D39F2 /* MyairopsChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB356A29BF6C65006D39F2 /* MyairopsChallengeUITests.swift */; };
+		C4CB356D29BF6C65006D39F2 /* MyairopsChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB356C29BF6C65006D39F2 /* MyairopsChallengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4CB355D29BF6C65006D39F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4CB354429BF6C63006D39F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4CB354B29BF6C63006D39F2;
+			remoteInfo = MyairopsChallenge;
+		};
+		C4CB356729BF6C65006D39F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4CB354429BF6C63006D39F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4CB354B29BF6C63006D39F2;
+			remoteInfo = MyairopsChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4CB354C29BF6C63006D39F2 /* MyairopsChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyairopsChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4CB354F29BF6C63006D39F2 /* MyairopsChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyairopsChallengeApp.swift; sourceTree = "<group>"; };
+		C4CB355129BF6C63006D39F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4CB355329BF6C65006D39F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4CB355629BF6C65006D39F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4CB355C29BF6C65006D39F2 /* MyairopsChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyairopsChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4CB356029BF6C65006D39F2 /* MyairopsChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyairopsChallengeTests.swift; sourceTree = "<group>"; };
+		C4CB356629BF6C65006D39F2 /* MyairopsChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyairopsChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4CB356A29BF6C65006D39F2 /* MyairopsChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyairopsChallengeUITests.swift; sourceTree = "<group>"; };
+		C4CB356C29BF6C65006D39F2 /* MyairopsChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyairopsChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4CB354929BF6C63006D39F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CB355929BF6C65006D39F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CB356329BF6C65006D39F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4CB354329BF6C63006D39F2 = {
+			isa = PBXGroup;
+			children = (
+				C4CB354E29BF6C63006D39F2 /* MyairopsChallenge */,
+				C4CB355F29BF6C65006D39F2 /* MyairopsChallengeTests */,
+				C4CB356929BF6C65006D39F2 /* MyairopsChallengeUITests */,
+				C4CB354D29BF6C63006D39F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4CB354D29BF6C63006D39F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4CB354C29BF6C63006D39F2 /* MyairopsChallenge.app */,
+				C4CB355C29BF6C65006D39F2 /* MyairopsChallengeTests.xctest */,
+				C4CB356629BF6C65006D39F2 /* MyairopsChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4CB354E29BF6C63006D39F2 /* MyairopsChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				C4CB354F29BF6C63006D39F2 /* MyairopsChallengeApp.swift */,
+				C4CB355129BF6C63006D39F2 /* ContentView.swift */,
+				C4CB355329BF6C65006D39F2 /* Assets.xcassets */,
+				C4CB355529BF6C65006D39F2 /* Preview Content */,
+			);
+			path = MyairopsChallenge;
+			sourceTree = "<group>";
+		};
+		C4CB355529BF6C65006D39F2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C4CB355629BF6C65006D39F2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4CB355F29BF6C65006D39F2 /* MyairopsChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4CB356029BF6C65006D39F2 /* MyairopsChallengeTests.swift */,
+			);
+			path = MyairopsChallengeTests;
+			sourceTree = "<group>";
+		};
+		C4CB356929BF6C65006D39F2 /* MyairopsChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4CB356A29BF6C65006D39F2 /* MyairopsChallengeUITests.swift */,
+				C4CB356C29BF6C65006D39F2 /* MyairopsChallengeUITestsLaunchTests.swift */,
+			);
+			path = MyairopsChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4CB354B29BF6C63006D39F2 /* MyairopsChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4CB357029BF6C65006D39F2 /* Build configuration list for PBXNativeTarget "MyairopsChallenge" */;
+			buildPhases = (
+				C4CB354829BF6C63006D39F2 /* Sources */,
+				C4CB354929BF6C63006D39F2 /* Frameworks */,
+				C4CB354A29BF6C63006D39F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyairopsChallenge;
+			productName = MyairopsChallenge;
+			productReference = C4CB354C29BF6C63006D39F2 /* MyairopsChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4CB355B29BF6C65006D39F2 /* MyairopsChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4CB357329BF6C65006D39F2 /* Build configuration list for PBXNativeTarget "MyairopsChallengeTests" */;
+			buildPhases = (
+				C4CB355829BF6C65006D39F2 /* Sources */,
+				C4CB355929BF6C65006D39F2 /* Frameworks */,
+				C4CB355A29BF6C65006D39F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4CB355E29BF6C65006D39F2 /* PBXTargetDependency */,
+			);
+			name = MyairopsChallengeTests;
+			productName = MyairopsChallengeTests;
+			productReference = C4CB355C29BF6C65006D39F2 /* MyairopsChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4CB356529BF6C65006D39F2 /* MyairopsChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4CB357629BF6C65006D39F2 /* Build configuration list for PBXNativeTarget "MyairopsChallengeUITests" */;
+			buildPhases = (
+				C4CB356229BF6C65006D39F2 /* Sources */,
+				C4CB356329BF6C65006D39F2 /* Frameworks */,
+				C4CB356429BF6C65006D39F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4CB356829BF6C65006D39F2 /* PBXTargetDependency */,
+			);
+			name = MyairopsChallengeUITests;
+			productName = MyairopsChallengeUITests;
+			productReference = C4CB356629BF6C65006D39F2 /* MyairopsChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4CB354429BF6C63006D39F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C4CB354B29BF6C63006D39F2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C4CB355B29BF6C65006D39F2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C4CB354B29BF6C63006D39F2;
+					};
+					C4CB356529BF6C65006D39F2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C4CB354B29BF6C63006D39F2;
+					};
+				};
+			};
+			buildConfigurationList = C4CB354729BF6C63006D39F2 /* Build configuration list for PBXProject "MyairopsChallenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4CB354329BF6C63006D39F2;
+			productRefGroup = C4CB354D29BF6C63006D39F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4CB354B29BF6C63006D39F2 /* MyairopsChallenge */,
+				C4CB355B29BF6C65006D39F2 /* MyairopsChallengeTests */,
+				C4CB356529BF6C65006D39F2 /* MyairopsChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4CB354A29BF6C63006D39F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CB355729BF6C65006D39F2 /* Preview Assets.xcassets in Resources */,
+				C4CB355429BF6C65006D39F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CB355A29BF6C65006D39F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CB356429BF6C65006D39F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4CB354829BF6C63006D39F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CB355229BF6C63006D39F2 /* ContentView.swift in Sources */,
+				C4CB355029BF6C63006D39F2 /* MyairopsChallengeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CB355829BF6C65006D39F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CB356129BF6C65006D39F2 /* MyairopsChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CB356229BF6C65006D39F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CB356D29BF6C65006D39F2 /* MyairopsChallengeUITestsLaunchTests.swift in Sources */,
+				C4CB356B29BF6C65006D39F2 /* MyairopsChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4CB355E29BF6C65006D39F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4CB354B29BF6C63006D39F2 /* MyairopsChallenge */;
+			targetProxy = C4CB355D29BF6C65006D39F2 /* PBXContainerItemProxy */;
+		};
+		C4CB356829BF6C65006D39F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4CB354B29BF6C63006D39F2 /* MyairopsChallenge */;
+			targetProxy = C4CB356729BF6C65006D39F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C4CB356E29BF6C65006D39F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4CB356F29BF6C65006D39F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4CB357129BF6C65006D39F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyairopsChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = 3777CH98HC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stebinalex.MyairopsChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4CB357229BF6C65006D39F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyairopsChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = 3777CH98HC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stebinalex.MyairopsChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4CB357429BF6C65006D39F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3777CH98HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stebinalex.MyairopsChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyairopsChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyairopsChallenge";
+			};
+			name = Debug;
+		};
+		C4CB357529BF6C65006D39F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3777CH98HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stebinalex.MyairopsChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyairopsChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyairopsChallenge";
+			};
+			name = Release;
+		};
+		C4CB357729BF6C65006D39F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3777CH98HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stebinalex.MyairopsChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyairopsChallenge;
+			};
+			name = Debug;
+		};
+		C4CB357829BF6C65006D39F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3777CH98HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stebinalex.MyairopsChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyairopsChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4CB354729BF6C63006D39F2 /* Build configuration list for PBXProject "MyairopsChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CB356E29BF6C65006D39F2 /* Debug */,
+				C4CB356F29BF6C65006D39F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4CB357029BF6C65006D39F2 /* Build configuration list for PBXNativeTarget "MyairopsChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CB357129BF6C65006D39F2 /* Debug */,
+				C4CB357229BF6C65006D39F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4CB357329BF6C65006D39F2 /* Build configuration list for PBXNativeTarget "MyairopsChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CB357429BF6C65006D39F2 /* Debug */,
+				C4CB357529BF6C65006D39F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4CB357629BF6C65006D39F2 /* Build configuration list for PBXNativeTarget "MyairopsChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CB357729BF6C65006D39F2 /* Debug */,
+				C4CB357829BF6C65006D39F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4CB354429BF6C63006D39F2 /* Project object */;
+}
