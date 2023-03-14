@@ -43,17 +43,17 @@ struct FlightListView: View {
                     .padding(5)
                 Spacer()
                 VStack {
-                    HStack {
-                        Text("Airline Name: ")
+                    HStack { 
                         Text(aircraft.airlineName)
+                            .font(.title3.bold())
                         Spacer()
                     }
                     HStack {
                         Text("Type Name: ")
-                        
                         Text(aircraft.typeName)
                         Spacer()
                     }
+                    .font(.callout)
                 }
                 Spacer()
             }
