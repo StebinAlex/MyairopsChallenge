@@ -14,6 +14,27 @@
 		C4CB356129BF6C65006D39F2 /* MyairopsChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB356029BF6C65006D39F2 /* MyairopsChallengeTests.swift */; };
 		C4CB356B29BF6C65006D39F2 /* MyairopsChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB356A29BF6C65006D39F2 /* MyairopsChallengeUITests.swift */; };
 		C4CB356D29BF6C65006D39F2 /* MyairopsChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB356C29BF6C65006D39F2 /* MyairopsChallengeUITestsLaunchTests.swift */; };
+		C4CB358029BF72B0006D39F2 /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB357F29BF72B0006D39F2 /* PageData.swift */; };
+		C4CB358329BF7322006D39F2 /* FlightListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB358229BF7322006D39F2 /* FlightListView.swift */; };
+		C4CB358529BF7333006D39F2 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB358429BF7333006D39F2 /* ContactsView.swift */; };
+		C4CB358729BF733D006D39F2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB358629BF733D006D39F2 /* SettingsView.swift */; };
+		C4CB358929BF8D92006D39F2 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB358829BF8D92006D39F2 /* Route.swift */; };
+		C4CB358B29BF8F03006D39F2 /* FlightDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB358A29BF8F03006D39F2 /* FlightDetailsView.swift */; };
+		C4CB358D29BF903F006D39F2 /* FlightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB358C29BF903F006D39F2 /* FlightsViewModel.swift */; };
+		C4CB359029BF909D006D39F2 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB358F29BF909D006D39F2 /* APIManager.swift */; };
+		C4CB359229BF9432006D39F2 /* Aircraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB359129BF9431006D39F2 /* Aircraft.swift */; };
+		C4CB359429BF98E5006D39F2 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB359329BF98E5006D39F2 /* ImageView.swift */; };
+		C4CB359629BF990B006D39F2 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB359529BF990B006D39F2 /* ImageLoader.swift */; };
+		C4CB359829BFF5B4006D39F2 /* BreadcrumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB359729BFF5B4006D39F2 /* BreadcrumbView.swift */; };
+		C4CB359B29C07655006D39F2 /* FlightStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB359A29C07655006D39F2 /* FlightStatus.swift */; };
+		C4CB359D29C07705006D39F2 /* FlightStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB359C29C07705006D39F2 /* FlightStatusView.swift */; };
+		C4CB359F29C077D0006D39F2 /* TopBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB359E29C077D0006D39F2 /* TopBannerView.swift */; };
+		C4CB35A129C07861006D39F2 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB35A029C07861006D39F2 /* MenuButton.swift */; };
+		C4CB35A329C08F24006D39F2 /* LastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB35A229C08F24006D39F2 /* LastView.swift */; };
+		C4CCF4CC29C0AD9E0097E833 /* PreviewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CCF4CB29C0AD9E0097E833 /* PreviewSupport.swift */; };
+		C4CCF4CE29C0B0700097E833 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CCF4CD29C0B0700097E833 /* Contact.swift */; };
+		C4CCF4D029C0B1DF0097E833 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CCF4CF29C0B1DF0097E833 /* Settings.swift */; };
+		C4CCF4D229C0B7F90097E833 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CCF4D129C0B7F90097E833 /* Style.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +65,28 @@
 		C4CB356629BF6C65006D39F2 /* MyairopsChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyairopsChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CB356A29BF6C65006D39F2 /* MyairopsChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyairopsChallengeUITests.swift; sourceTree = "<group>"; };
 		C4CB356C29BF6C65006D39F2 /* MyairopsChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyairopsChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C4CB357F29BF72B0006D39F2 /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
+		C4CB358229BF7322006D39F2 /* FlightListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightListView.swift; sourceTree = "<group>"; };
+		C4CB358429BF7333006D39F2 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		C4CB358629BF733D006D39F2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C4CB358829BF8D92006D39F2 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		C4CB358A29BF8F03006D39F2 /* FlightDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailsView.swift; sourceTree = "<group>"; };
+		C4CB358C29BF903F006D39F2 /* FlightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsViewModel.swift; sourceTree = "<group>"; };
+		C4CB358F29BF909D006D39F2 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		C4CB359129BF9431006D39F2 /* Aircraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aircraft.swift; sourceTree = "<group>"; };
+		C4CB359329BF98E5006D39F2 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		C4CB359529BF990B006D39F2 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		C4CB359729BFF5B4006D39F2 /* BreadcrumbView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreadcrumbView.swift; sourceTree = "<group>"; };
+		C4CB359929C06BF2006D39F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C4CB359A29C07655006D39F2 /* FlightStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightStatus.swift; sourceTree = "<group>"; };
+		C4CB359C29C07705006D39F2 /* FlightStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightStatusView.swift; sourceTree = "<group>"; };
+		C4CB359E29C077D0006D39F2 /* TopBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBannerView.swift; sourceTree = "<group>"; };
+		C4CB35A029C07861006D39F2 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		C4CB35A229C08F24006D39F2 /* LastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastView.swift; sourceTree = "<group>"; };
+		C4CCF4CB29C0AD9E0097E833 /* PreviewSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSupport.swift; sourceTree = "<group>"; };
+		C4CCF4CD29C0B0700097E833 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		C4CCF4CF29C0B1DF0097E833 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		C4CCF4D129C0B7F90097E833 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +137,12 @@
 		C4CB354E29BF6C63006D39F2 /* MyairopsChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				C4CB359929C06BF2006D39F2 /* Info.plist */,
 				C4CB354F29BF6C63006D39F2 /* MyairopsChallengeApp.swift */,
-				C4CB355129BF6C63006D39F2 /* ContentView.swift */,
+				C4CB358129BF72B4006D39F2 /* Model */,
+				C4CB357929BF6D33006D39F2 /* View */,
+				C4CB358E29BF9044006D39F2 /* ViewModel */,
+				C4CB357E29BF72A4006D39F2 /* Others */,
 				C4CB355329BF6C65006D39F2 /* Assets.xcassets */,
 				C4CB355529BF6C65006D39F2 /* Preview Content */,
 			);
@@ -125,6 +172,56 @@
 				C4CB356C29BF6C65006D39F2 /* MyairopsChallengeUITestsLaunchTests.swift */,
 			);
 			path = MyairopsChallengeUITests;
+			sourceTree = "<group>";
+		};
+		C4CB357929BF6D33006D39F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4CB355129BF6C63006D39F2 /* ContentView.swift */,
+				C4CB358229BF7322006D39F2 /* FlightListView.swift */,
+				C4CB359729BFF5B4006D39F2 /* BreadcrumbView.swift */,
+				C4CB358A29BF8F03006D39F2 /* FlightDetailsView.swift */,
+				C4CB35A229C08F24006D39F2 /* LastView.swift */,
+				C4CB35A029C07861006D39F2 /* MenuButton.swift */,
+				C4CB359E29C077D0006D39F2 /* TopBannerView.swift */,
+				C4CB359C29C07705006D39F2 /* FlightStatusView.swift */,
+				C4CB358629BF733D006D39F2 /* SettingsView.swift */,
+				C4CB358429BF7333006D39F2 /* ContactsView.swift */,
+				C4CB359329BF98E5006D39F2 /* ImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4CB357E29BF72A4006D39F2 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C4CB358F29BF909D006D39F2 /* APIManager.swift */,
+				C4CCF4CB29C0AD9E0097E833 /* PreviewSupport.swift */,
+				C4CCF4D129C0B7F90097E833 /* Style.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C4CB358129BF72B4006D39F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4CB357F29BF72B0006D39F2 /* PageData.swift */,
+				C4CB358829BF8D92006D39F2 /* Route.swift */,
+				C4CB359A29C07655006D39F2 /* FlightStatus.swift */,
+				C4CB359129BF9431006D39F2 /* Aircraft.swift */,
+				C4CCF4CD29C0B0700097E833 /* Contact.swift */,
+				C4CCF4CF29C0B1DF0097E833 /* Settings.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4CB358E29BF9044006D39F2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4CB358C29BF903F006D39F2 /* FlightsViewModel.swift */,
+				C4CB359529BF990B006D39F2 /* ImageLoader.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +354,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4CB359429BF98E5006D39F2 /* ImageView.swift in Sources */,
+				C4CB359F29C077D0006D39F2 /* TopBannerView.swift in Sources */,
+				C4CB358D29BF903F006D39F2 /* FlightsViewModel.swift in Sources */,
 				C4CB355229BF6C63006D39F2 /* ContentView.swift in Sources */,
+				C4CB359029BF909D006D39F2 /* APIManager.swift in Sources */,
+				C4CCF4D229C0B7F90097E833 /* Style.swift in Sources */,
+				C4CB359229BF9432006D39F2 /* Aircraft.swift in Sources */,
+				C4CCF4CE29C0B0700097E833 /* Contact.swift in Sources */,
+				C4CB359829BFF5B4006D39F2 /* BreadcrumbView.swift in Sources */,
+				C4CB358B29BF8F03006D39F2 /* FlightDetailsView.swift in Sources */,
+				C4CB358729BF733D006D39F2 /* SettingsView.swift in Sources */,
+				C4CB359B29C07655006D39F2 /* FlightStatus.swift in Sources */,
+				C4CB358329BF7322006D39F2 /* FlightListView.swift in Sources */,
+				C4CB358029BF72B0006D39F2 /* PageData.swift in Sources */,
 				C4CB355029BF6C63006D39F2 /* MyairopsChallengeApp.swift in Sources */,
+				C4CB358929BF8D92006D39F2 /* Route.swift in Sources */,
+				C4CB35A129C07861006D39F2 /* MenuButton.swift in Sources */,
+				C4CB358529BF7333006D39F2 /* ContactsView.swift in Sources */,
+				C4CB359D29C07705006D39F2 /* FlightStatusView.swift in Sources */,
+				C4CB359629BF990B006D39F2 /* ImageLoader.swift in Sources */,
+				C4CCF4CC29C0AD9E0097E833 /* PreviewSupport.swift in Sources */,
+				C4CCF4D029C0B1DF0097E833 /* Settings.swift in Sources */,
+				C4CB35A329C08F24006D39F2 /* LastView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +463,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +517,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -420,11 +538,12 @@
 				DEVELOPMENT_TEAM = 3777CH98HC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = MyairopsChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,11 +568,12 @@
 				DEVELOPMENT_TEAM = 3777CH98HC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = MyairopsChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
